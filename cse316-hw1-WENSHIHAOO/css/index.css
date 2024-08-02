@@ -1,0 +1,85 @@
+/* Add CSS stylesheet */
+
+.banner{
+    background-color: lightgray;
+    border: 1px solid; 
+}
+.banner a{
+    font-size: 150%;
+    text-align: center;
+    display: inline-block; 
+    text-decoration: none;
+    width: 11%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.banner a:hover {
+    background-color: darkgray;
+  }
+
+.banner h{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block; 
+    width: 45%;
+}
+.banner input{
+    font-size: 150%;
+    border: 1px solid;
+    width: 30%;
+    height: 40px;
+}
+
+table{
+    width: 100%;
+}
+.column1{
+    width: 20%;
+    font-size: 20px;
+}
+.column2{
+    width: 60%;
+    font-size: 20px;
+}
+.column2 a{
+    text-decoration: none;
+}
+.column3{
+    width: 20%;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 2%;
+}
+
+hr{
+    border: 1px dashed;
+}
+
+.name{
+    margin: auto;
+    background: darkgray;
+    border:2px solid black;
+    border-radius:30px;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 5px;
+}
+
+
+.tags{
+    border: 1px solid;
+    display: inline-block;
+    text-align: center;
+    margin-left: 12%;
+    margin-top: 7%;
+    max-width: 25%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+}
+.tags a{
+    font-size: 25px;
+}

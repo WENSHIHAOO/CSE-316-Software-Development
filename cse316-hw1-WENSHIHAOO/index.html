@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="css/index.css">
+  <script type="module" src="src/index.js"></script>
+</head>
+<body>
+  <div id="banner" class="banner" >
+    <a id="Question">Questions</a>
+    <a id="Tags">Tags</a>
+    <h >Fake Stack Overflow</h>
+    <input type="text" placeholder="Search..." id="search">
+  </div>
+
+  <div id="main" class="main">
+    <table>
+      <tr id = "row1"> 
+        <th id="N" class="column1">N Questions</th>
+        <th id="All" class="column2">All Questions</th>
+        <th id = "Ask" class="column3"><button type="button" 
+          style="background-color:#165A92; border-radius:10px; font-size: 20px;  padding-top: 5%; padding-bottom: 5%; color: white;"
+          >Ask A Question</button></th>
+      </tr>
+    </table>
+    <p id="N_Question"></p>
+  </div>
+
+  <p id="Alert" style="text-align: center; color: red;"></p>
+  <div id="AskAQuestion">
+    <h2>Question Title</h2>
+    <p>Title should not be more than 100 characters.</p>
+    <textarea type="text" id="title" style="font-size: 110%; width: 90%; border: 1px solid; height: 80px; overflow: auto;"></textarea><br></br>
+    <h2>Question Text</h2>
+    <p>Add details.</p>
+    <textarea type="text" id="detail" style="font-size: 110%; width: 90%; border: 1px solid; height: 150px; overflow: auto;"></textarea><br></br>
+
+    <h2>Tags</h2>
+    <p>Add Keywords separated by whitespace.</p>
+    <textarea type="text" id="keyword" style="font-size: 110%; width: 90%; border: 1px solid; height: 80px; overflow: auto;"></textarea><br></br>
+
+    <h2>Username</h2>
+    <p>Should not be more than 15 characters.</p>
+    <textarea type="text" id="username" style="font-size: 110%; width: 90%; border: 1px solid; height: 50px; overflow: auto;"></textarea><br></br>
+
+    <button type="button" id="submit" style="background-color:#165A92; border-radius:10px; font-size: 20px;  padding-top: 2%; padding-bottom: 2%; color: white;">
+      Post Question</button>
+  </div>
+
+  <div>
+    <button type="button" id="newAnswer" style="margin-left: 40%; background-color:#165A92; border-radius:10px; font-size: 20px;  padding-top: 2%; padding-bottom: 2%; color: white;">
+      Answer Question</button>
+  </div>
+
+  <div id="answerText">
+    <h2>Answer Text</h2>
+    <textarea type="text" id="aText" style="font-size: 110%; width: 90%; border: 1px solid; height: 150px; overflow: auto;"></textarea><br></br>
+    <h2>Username</h2>
+    <p>Should not be more than 15 characters.</p>
+    <textarea type="text" id="aUsername" style="font-size: 110%; width: 90%; border: 1px solid; height: 50px; overflow: auto;"></textarea><br></br>
+    <button type="button" id="aPost" style="background-color:#165A92; border-radius:10px; font-size: 20px;  padding-top: 1%; padding-bottom: 1%; color: white;">
+      Post Answer</button>
+  </div>
+</body>
+</html>
