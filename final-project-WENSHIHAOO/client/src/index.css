@@ -1,0 +1,351 @@
+/* Add CSS */
+.banner{
+    margin-bottom: 15px;
+    background-color: lightgray;
+    border: 1px solid; 
+}
+.banner a{
+    font-size: 150%;
+    text-align: center;
+    display: inline-block; 
+    text-decoration: none;
+    width: 10%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.banner a:hover {
+    background-color: darkgray;
+  }
+
+.banner h1{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block; 
+    width: 25%;
+    margin-right: 2%;
+}
+.banner input{
+    font-size: 150%;
+    border: 1px solid;
+    width: 30%;
+    height: 40px;
+    margin-right: 2%;
+}
+#word{
+    font-size: 150%;
+}
+#word1{
+    font-size: 150%;
+    margin-left: 20%;
+    color: rgb(245, 7, 11);
+}
+.span{
+    display: inline-block;
+    width: 10%;
+}
+
+.span button{
+    font-size: 100%;
+    width: 90%;
+    background-color:#a5cdec; 
+    border-radius:10px;
+}
+
+#user{
+    background-color:#868189; 
+    width: 12%;
+    border-radius:10px;
+}
+
+#user:hover {
+    background-color: rgb(141, 79, 148);
+}
+
+#Logout{
+    font-size: 100%;
+    background-color:#a5cdec; 
+    margin-left: 1%;
+    border-radius:10px;
+    height: 35px;
+    width: 7%;
+}
+
+.inup{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 8%;
+    background-color: rgb(235, 244, 251);
+    border: 1px solid; 
+    border-radius:10px;
+    text-align: center;
+}
+.inup input{
+    font-size: 150%;
+    border: 1px solid;
+    width: 70%;
+    height: 30px;
+}
+.inup button{
+    font-size: 150%;
+    border: 1px solid;
+    width: 50%;
+    height: 35px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border-radius:10px;
+    background-color:#a5cdec; 
+}
+.inup button:hover{
+    background-color:#688fa7; 
+}
+
+.pnWork {
+    float: left;
+    font-size: 150%;
+    border: 1px solid;
+    width: 10%;
+    height: 35px;
+    border-radius:5px;
+    background-color:#e7e970; 
+}
+
+.pnNotWork {
+    font-size: 150%;
+    border: 1px solid;
+    width: 10%;
+    height: 35px;
+    border-radius:5px;
+    background-color:#aeb3b3; 
+}
+
+table{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    table-layout: fixed;
+}
+.column1{
+    width: 12%;
+    font-size: 20px;
+}
+.column2{
+    width: 60%;
+    font-size: 20px;
+}
+.column2 a{
+    text-decoration: none;
+}
+.column3{
+    width: 20%;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 2%;
+}
+
+hr{
+    border: 1px dashed;
+}
+
+.name{
+    margin: auto;
+    background: rgb(88, 88, 88);
+    border:2px solid black;
+    border-radius:30px;
+    text-align: center;
+    color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 5px;
+}
+
+.tags{
+    border: 1px solid;
+    display: inline-block;
+    text-align: center;
+    margin-left: 12%;
+    margin-top: 7%;
+    max-width: 25%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+}
+
+.tags a{
+    font-size: 25px;
+}
+
+.AskA {
+    background-color:#165A92; 
+    border-radius:10px; 
+    font-size: 20px;  
+    padding-top: 5%; 
+    padding-bottom: 5%; 
+    color: white;
+}
+.askedBy{
+    color: blue;
+}
+.askedOn{
+    color: green;
+}
+.askedAt{
+    color: darkcyan;
+}
+
+.answerstext{
+    width: 100%;
+    max-height: 200px;
+    overflow: scroll;
+
+}
+
+#title{
+    font-size: 110%; 
+    width: 90%; 
+    border: 1px solid; 
+    height: 40px; 
+    overflow: scroll;
+}
+
+#summary{
+    font-size: 110%; 
+    width: 90%; 
+    border: 1px solid; 
+    height: 80px; 
+    overflow: scroll;
+}
+
+#detail{
+    font-size: 110%; 
+    width: 90%; 
+    border: 1px solid; 
+    height: 150px; 
+    overflow: scroll;
+}
+
+#keyword{
+    font-size: 110%; 
+    width: 90%; 
+    border: 1px solid; 
+    height: 80px; 
+    overflow: scroll;
+}
+
+#username{
+    font-size: 110%; 
+    width: 90%; 
+    border: 1px solid; 
+    height: 50px; 
+    overflow: scroll;
+}
+#submit{
+    background-color:#165A92; 
+    border-radius:10px; 
+    font-size: 20px;  
+    padding-top: 2%; 
+    padding-bottom: 2%; 
+    color: white;
+}
+.Alert{
+    text-align: center; 
+    color: red;
+}
+
+#newAnswer{
+    margin-left: 41%; 
+    margin-right: 41%; 
+    margin-top: 40px;
+    background-color:#165A92; 
+    border-radius:10px; 
+    font-size: 20px;  
+    padding-top: 2%; 
+    padding-bottom: 2%; 
+    color: white;
+}
+
+#aText{
+    margin-bottom: 40px;
+    font-size: 110%; 
+    width: 90%; 
+    border: 1px solid; 
+    height: 150px; 
+    overflow: scroll;
+}
+#aUsername{
+    margin-bottom: 40px;
+    font-size: 110%; 
+    width: 90%; 
+    border: 1px solid; 
+    height: 50px; 
+    overflow: scroll;
+}
+#aPost{
+    background-color:#165A92; 
+    border-radius:10px; 
+    font-size: 20px;  
+    padding-top: 1%; 
+    padding-bottom: 1%; 
+    color: white;
+}
+
+.commentInput{
+    width: 35%;
+    margin-left: 12%;
+    float: left;
+}
+
+.vote{
+    background-color:#ab91ba; 
+    margin-right: 5%; 
+    padding-left: 8%; 
+    padding-right: 8%; 
+    border-radius:10px;
+    text-decoration: none;
+    color: white;
+}
+.hr{
+    border: 8px ridge;
+}
+
+.compn{
+    float: left;
+}
+
+.comhr{
+    border: 1px ridge;
+}
+
+.commentText{
+    margin-left: 7%;
+}
+
+.comNotWork{
+    margin-left: 330%;
+    font-size: 60%;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color:#aeb3b3; 
+}
+
+.comWork{
+    margin-left: 330%;
+    font-size: 60%;
+    border: 1px solid;
+    border-radius:5px;
+    background-color:#e7e970; 
+}
+
+#proHr{
+    border: 10px solid;
+}
+
+.pro{
+    background-color:#b095f1; 
+}
+
+.empty{
+    text-align: center;
+    color: red;
+}
